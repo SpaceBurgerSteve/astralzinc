@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" {
+      "model": "astralzinc:block/mars_zinc_ore"
+    }
+  }
+}

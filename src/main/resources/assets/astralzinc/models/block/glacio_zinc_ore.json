@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "astralzinc:block/glacio_zinc_ore"
+  }
+}
