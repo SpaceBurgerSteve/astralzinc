@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import steve.spaceburger.astralzinc.AstralZinc;
+import steve.spaceburger.astralzinc.item.ModItems;
 
 import java.util.function.Supplier;
 
