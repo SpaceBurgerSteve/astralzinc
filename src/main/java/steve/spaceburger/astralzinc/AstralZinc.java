@@ -1,6 +1,16 @@
 package steve.spaceburger.astralzinc;
 
 import com.mojang.logging.LogUtils;
+import earth.terrarium.adastra.AdAstra;
+import earth.terrarium.adastra.api.events.AdAstraEvents;
+import earth.terrarium.adastra.client.AdAstraClient;
+import earth.terrarium.adastra.client.config.AdAstraConfigClient;
+import earth.terrarium.adastra.client.forge.AdAstraClientForge;
+import earth.terrarium.adastra.common.commands.AdAstraCommands;
+import earth.terrarium.adastra.common.config.AdAstraConfig;
+import earth.terrarium.adastra.common.planets.AdAstraData;
+import earth.terrarium.adastra.common.registry.ModCreativeTab;
+import earth.terrarium.adastra.forge.AdAstraForge;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -17,6 +27,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import steve.spaceburger.astralzinc.block.ModBlocks;
 import steve.spaceburger.astralzinc.item.ModItems;
+
+
 
 @Mod(AstralZinc.MOD_ID)
 public class AstralZinc
